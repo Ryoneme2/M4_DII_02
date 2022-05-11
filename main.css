@@ -11,6 +11,10 @@ ul {
 ol {
   color: #F1FAEE;
 }
+
+ul>li:nth-child(1) {
+  color: #E63946;
+}
 .non_sporting {
   background-color: #45789D;
 }
