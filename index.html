@@ -1,70 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>An example webpage</title>
-    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8" />
+    <title>CSS Specificity Exercise</title>
+    <link rel="stylesheet" href="specificityStyle.css">
   </head>
   <body>
-    <h1>American Kernal Club</h1>
-    <ol>
-      <li>
-        <h5 style="margin: 4px 0 4px 0;">Terriers</h5>
-        <ul>
-          <li>Airedale Terrier</li>
-          <li>Irish Terrier</li>
-          <li>Skye Terrier</li>
-        </ul>
-      </li>
-      <li>
-        <h5 style="margin: 4px 0 4px 0;">Sporting</h5>
-        <ul>
-          <li>Vizsla</li>
-          <li>Weimaraner</li>
-          <li>English Setter</li>
-        </ul>
-      </li>
-      <li>
-        <h5 style="margin: 4px 0 4px 0;">Hounds</h5>
-        <ul>
-          <li id="basenji">Basenji</li>
-          <li>Beagle</li>
-          <li>Borzoi</li>
-        </ul>
-      </li>
-      <li class="non_sporting">
-        <h5 style="margin: 4px 0 4px 0;">Non-Sporting</h5>
-        <ul class="non_sporting">
-          <li>Shiba Inu</li>
-          <li>Schipperke</li>
-          <li>Dalmatian</li>
-        </ul>
-      </li>
-      <li>
-        <h5 style="margin: 4px 0 4px 0;">Working</h5>
-        <ul>
-          <li>Akita</li>
-          <li>Boxer</li>
-          <li>Kuvasz</li>
-        </ul>
-      </li>
-      <li>
-        <h5 style="margin: 4px 0 4px 0;">Herding</h5>
-        <ul>
-          <li>Collie (Smooth)</li>
-          <li>Puli</li>
-          <li>Briard</li>
-        </ul>
-      </li>
-      <li>
-        <h5 style="margin: 4px 0 4px 0;">Toy</h5>
-        <ul>
-          <li>Pug</li>
-          <li>Pomeranian</li>
-          <li>Papillon</li>
-        </ul>
-      </li>
-      </li>
-      
-    </ol>
+    <h2>Example of dog breeds</h2>
+    <hr />
+    <div class="div1" id="div1">
+      <p>Golden retriever</p>
+      <p id="x1">Labrador retriever</p>
+      <p>Beagle</p>
+      <p><span class="x2" id="x2">French bulldog</span></p>
+      <span>Shiba Inu</span>
+      <h4 style="color: gray">Saint bernard</h4>
+      <span class="x2">Siberian husky</span>
+    </div>
   </body>
 </html>
